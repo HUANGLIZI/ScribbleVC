@@ -185,10 +185,10 @@ if __name__ == '__main__':
                 pseudo_supervision = torch.argmax(((torch.min(outputs_soft1.detach(), outputs_soft2.detach()) > 0.5) * \
                                                    (beta * outputs_soft1.detach() + (
                                                                1.0 - beta) * outputs_soft2.detach())),
-                                                  dim=1, keepdim=False)  # 两个output必须都大于0.5
+                                                  dim=1, keepdim=False)  
                 loss_pse_sup = 0.5 * (dice_loss(outputs_soft1, pseudo_supervision.unsqueeze(1)) +
                                       dice_loss(outputs_soft2,
-                                                pseudo_supervision.unsqueeze(1)))  # 两个pred和pseudo label的loss
+                                                pseudo_supervision.unsqueeze(1)))  
 
                 loss = loss + args.weight_pseudo_loss * loss_pse_sup
 
