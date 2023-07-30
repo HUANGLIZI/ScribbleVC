@@ -1,6 +1,6 @@
 # ScribbleVC
 
-This repository is the official implementation of the paper ScribbleVC: Scribble-supervised Medical Image Segmentation with Vision-Class Embedding.
+This repository is the official implementation of the paper ScribbleVC: Scribble-supervised Medical Image Segmentation with Vision-Class Embedding (ACM MM 2023).
 
 ## Datasets
 
@@ -21,7 +21,7 @@ Some important required packages include:
 * CUDA 11.7
 * [Pytorch](https://pytorch.org) 1.13.1
 * torchvision 0.14.1
-* Some basic python packages such as Numpy, Scikit-image, SimpleITK, Scipy ......
+* Some basic python packages such as Numpy, Scikit-image, SimpleITK, Scipy.
 
 Follow official guidance to install [Pytorch](https://pytorch.org).
 
