@@ -42,3 +42,14 @@ To evaluate the model, run this command:
 ```eval
 python test_ACDC.py --bilinear --linear_layer --exp <path_to_save_model> --save_prediction
 ```
+
+# Citation
+
+```bash
+@inproceedings{li2023scribblevc,
+  title={ScribbleVC: Scribble-supervised Medical Image Segmentation with Vision-Class Embedding},
+  author={Li, Zihan and Zheng, Yuan and Luo, Xiangde and Shan, Dandan and Hong, Qingqi},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  year={2023}
+}
+```
