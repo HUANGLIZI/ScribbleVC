@@ -2,6 +2,8 @@
 
 This repository is the official implementation of the paper ScribbleVC: Scribble-supervised Medical Image Segmentation with Vision-Class Embedding (ACM MM 2023). [Arxiv](https://arxiv.org/abs/2307.16226), [ResearchGate](https://www.researchgate.net/publication/372761587_ScribbleVC_Scribble-supervised_Medical_Image_Segmentation_with_Vision-Class_Embedding)
 
+![image](https://github.com/HUANGLIZI/ScribbleVC/blob/main/ScribbleVC.png)
+
 The ScribbleVC has been compatible with [WSL4MIS](https://github.com/HiLab-git/WSL4MIS) Codebase, feel free to use it.
 
 ## Datasets
