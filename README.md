@@ -18,6 +18,8 @@ The ScribbleVC has been compatible with [WSL4MIS](https://github.com/HiLab-git/W
 2. The scribble annotations of MSCMRseg have been released in [MSCMR_scribbles](https://github.com/BWGZK/CycleMix/tree/main/MSCMR_scribbles). 
 3. The scribble-annotated MSCMR dataset used for training could be directly downloaded from [MSCMR_dataset](https://github.com/BWGZK/CycleMix/tree/main/MSCMR_dataset).
 
+The slice classfication files have been available.
+
 ## Requirements
 
 Some important required packages include:
